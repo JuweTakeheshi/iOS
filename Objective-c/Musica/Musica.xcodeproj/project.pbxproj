@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5C7A264142E8798006423CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7A263142E8798006423CE /* Foundation.framework */; };
+		E5C7A267142E8798006423CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7A266142E8798006423CE /* main.m */; };
+		E5C7A26B142E8798006423CE /* Musica.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5C7A26A142E8798006423CE /* Musica.1 */; };
+		E5C7A273142E87F3006423CE /* BeatBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7A272142E87F3006423CE /* BeatBox.m */; };
+		E5C7A276142E8878006423CE /* CancionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7A275142E8878006423CE /* CancionFactory.m */; };
+		E5C7A279142E889E006423CE /* CancionTrance.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7A278142E889E006423CE /* CancionTrance.m */; };
+		E5C7A27C142E88A8006423CE /* CancionHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7A27B142E88A8006423CE /* CancionHouse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5C7A25D142E8798006423CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E5C7A26B142E8798006423CE /* Musica.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5C7A25F142E8798006423CE /* Musica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Musica; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C7A263142E8798006423CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5C7A266142E8798006423CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5C7A269142E8798006423CE /* Musica-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Musica-Prefix.pch"; sourceTree = "<group>"; };
+		E5C7A26A142E8798006423CE /* Musica.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Musica.1; sourceTree = "<group>"; };
+		E5C7A271142E87F3006423CE /* BeatBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeatBox.h; sourceTree = "<group>"; };
+		E5C7A272142E87F3006423CE /* BeatBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeatBox.m; sourceTree = "<group>"; };
+		E5C7A274142E8878006423CE /* CancionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancionFactory.h; sourceTree = "<group>"; };
+		E5C7A275142E8878006423CE /* CancionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancionFactory.m; sourceTree = "<group>"; };
+		E5C7A277142E889E006423CE /* CancionTrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancionTrance.h; sourceTree = "<group>"; };
+		E5C7A278142E889E006423CE /* CancionTrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancionTrance.m; sourceTree = "<group>"; };
+		E5C7A27A142E88A8006423CE /* CancionHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancionHouse.h; sourceTree = "<group>"; };
+		E5C7A27B142E88A8006423CE /* CancionHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancionHouse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C7A25C142E8798006423CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C7A264142E8798006423CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C7A254142E8798006423CE = {
+			isa = PBXGroup;
+			children = (
+				E5C7A265142E8798006423CE /* Musica */,
+				E5C7A262142E8798006423CE /* Frameworks */,
+				E5C7A260142E8798006423CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C7A260142E8798006423CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7A25F142E8798006423CE /* Musica */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C7A262142E8798006423CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7A263142E8798006423CE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C7A265142E8798006423CE /* Musica */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7A266142E8798006423CE /* main.m */,
+				E5C7A271142E87F3006423CE /* BeatBox.h */,
+				E5C7A27A142E88A8006423CE /* CancionHouse.h */,
+				E5C7A27B142E88A8006423CE /* CancionHouse.m */,
+				E5C7A277142E889E006423CE /* CancionTrance.h */,
+				E5C7A278142E889E006423CE /* CancionTrance.m */,
+				E5C7A274142E8878006423CE /* CancionFactory.h */,
+				E5C7A275142E8878006423CE /* CancionFactory.m */,
+				E5C7A272142E87F3006423CE /* BeatBox.m */,
+				E5C7A26A142E8798006423CE /* Musica.1 */,
+				E5C7A268142E8798006423CE /* Supporting Files */,
+			);
+			path = Musica;
+			sourceTree = "<group>";
+		};
+		E5C7A268142E8798006423CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7A269142E8798006423CE /* Musica-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5C7A25E142E8798006423CE /* Musica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C7A26E142E8798006423CE /* Build configuration list for PBXNativeTarget "Musica" */;
+			buildPhases = (
+				E5C7A25B142E8798006423CE /* Sources */,
+				E5C7A25C142E8798006423CE /* Frameworks */,
+				E5C7A25D142E8798006423CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musica;
+			productName = Musica;
+			productReference = E5C7A25F142E8798006423CE /* Musica */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C7A256142E8798006423CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5C7A259142E8798006423CE /* Build configuration list for PBXProject "Musica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5C7A254142E8798006423CE;
+			productRefGroup = E5C7A260142E8798006423CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C7A25E142E8798006423CE /* Musica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C7A25B142E8798006423CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C7A267142E8798006423CE /* main.m in Sources */,
+				E5C7A273142E87F3006423CE /* BeatBox.m in Sources */,
+				E5C7A276142E8878006423CE /* CancionFactory.m in Sources */,
+				E5C7A279142E889E006423CE /* CancionTrance.m in Sources */,
+				E5C7A27C142E88A8006423CE /* CancionHouse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5C7A26C142E8798006423CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5C7A26D142E8798006423CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5C7A26F142E8798006423CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Musica/Musica-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5C7A270142E8798006423CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Musica/Musica-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C7A259142E8798006423CE /* Build configuration list for PBXProject "Musica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C7A26C142E8798006423CE /* Debug */,
+				E5C7A26D142E8798006423CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C7A26E142E8798006423CE /* Build configuration list for PBXNativeTarget "Musica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C7A26F142E8798006423CE /* Debug */,
+				E5C7A270142E8798006423CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5C7A256142E8798006423CE /* Project object */;
+}
