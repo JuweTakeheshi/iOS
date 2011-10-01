@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AE4FFD1437816B00975944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AE4FFC1437816B00975944 /* UIKit.framework */; };
+		E5AE4FFF1437816B00975944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AE4FFE1437816B00975944 /* Foundation.framework */; };
+		E5AE50011437816B00975944 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AE50001437816B00975944 /* CoreGraphics.framework */; };
+		E5AE50071437816B00975944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5AE50051437816B00975944 /* InfoPlist.strings */; };
+		E5AE50091437816B00975944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE50081437816B00975944 /* main.m */; };
+		E5AE500D1437816B00975944 /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE500C1437816B00975944 /* RKUAppDelegate.m */; };
+		E5AE50101437816B00975944 /* RKUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE500F1437816B00975944 /* RKUViewController.m */; };
+		E5AE50131437816B00975944 /* RKUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5AE50111437816B00975944 /* RKUViewController.xib */; };
+		E5AE501B1437817E00975944 /* Leak.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE501A1437817E00975944 /* Leak.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5AE4FF81437816B00975944 /* MemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AE4FFC1437816B00975944 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5AE4FFE1437816B00975944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5AE50001437816B00975944 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5AE50041437816B00975944 /* MemoryLeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryLeak-Info.plist"; sourceTree = "<group>"; };
+		E5AE50061437816B00975944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5AE50081437816B00975944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AE500A1437816B00975944 /* MemoryLeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryLeak-Prefix.pch"; sourceTree = "<group>"; };
+		E5AE500B1437816B00975944 /* RKUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		E5AE500C1437816B00975944 /* RKUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		E5AE500E1437816B00975944 /* RKUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUViewController.h; sourceTree = "<group>"; };
+		E5AE500F1437816B00975944 /* RKUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUViewController.m; sourceTree = "<group>"; };
+		E5AE50121437816B00975944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUViewController.xib; sourceTree = "<group>"; };
+		E5AE50191437817E00975944 /* Leak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leak.h; sourceTree = "<group>"; };
+		E5AE501A1437817E00975944 /* Leak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leak.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AE4FF51437816B00975944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE4FFD1437816B00975944 /* UIKit.framework in Frameworks */,
+				E5AE4FFF1437816B00975944 /* Foundation.framework in Frameworks */,
+				E5AE50011437816B00975944 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AE4FED1437816B00975944 = {
+			isa = PBXGroup;
+			children = (
+				E5AE50021437816B00975944 /* MemoryLeak */,
+				E5AE4FFB1437816B00975944 /* Frameworks */,
+				E5AE4FF91437816B00975944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AE4FF91437816B00975944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FF81437816B00975944 /* MemoryLeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AE4FFB1437816B00975944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FFC1437816B00975944 /* UIKit.framework */,
+				E5AE4FFE1437816B00975944 /* Foundation.framework */,
+				E5AE50001437816B00975944 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5AE50021437816B00975944 /* MemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE500B1437816B00975944 /* RKUAppDelegate.h */,
+				E5AE500C1437816B00975944 /* RKUAppDelegate.m */,
+				E5AE500E1437816B00975944 /* RKUViewController.h */,
+				E5AE500F1437816B00975944 /* RKUViewController.m */,
+				E5AE50111437816B00975944 /* RKUViewController.xib */,
+				E5AE50031437816B00975944 /* Supporting Files */,
+				E5AE50191437817E00975944 /* Leak.h */,
+				E5AE501A1437817E00975944 /* Leak.m */,
+			);
+			path = MemoryLeak;
+			sourceTree = "<group>";
+		};
+		E5AE50031437816B00975944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE50041437816B00975944 /* MemoryLeak-Info.plist */,
+				E5AE50051437816B00975944 /* InfoPlist.strings */,
+				E5AE50081437816B00975944 /* main.m */,
+				E5AE500A1437816B00975944 /* MemoryLeak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AE4FF71437816B00975944 /* MemoryLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AE50161437816B00975944 /* Build configuration list for PBXNativeTarget "MemoryLeak" */;
+			buildPhases = (
+				E5AE4FF41437816B00975944 /* Sources */,
+				E5AE4FF51437816B00975944 /* Frameworks */,
+				E5AE4FF61437816B00975944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryLeak;
+			productName = MemoryLeak;
+			productReference = E5AE4FF81437816B00975944 /* MemoryLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AE4FEF1437816B00975944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5AE4FF21437816B00975944 /* Build configuration list for PBXProject "MemoryLeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5AE4FED1437816B00975944;
+			productRefGroup = E5AE4FF91437816B00975944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AE4FF71437816B00975944 /* MemoryLeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AE4FF61437816B00975944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE50071437816B00975944 /* InfoPlist.strings in Resources */,
+				E5AE50131437816B00975944 /* RKUViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AE4FF41437816B00975944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE50091437816B00975944 /* main.m in Sources */,
+				E5AE500D1437816B00975944 /* RKUAppDelegate.m in Sources */,
+				E5AE50101437816B00975944 /* RKUViewController.m in Sources */,
+				E5AE501B1437817E00975944 /* Leak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5AE50051437816B00975944 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AE50061437816B00975944 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5AE50111437816B00975944 /* RKUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AE50121437816B00975944 /* en */,
+			);
+			name = RKUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5AE50141437816B00975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5AE50151437816B00975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5AE50171437816B00975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryLeak/MemoryLeak-Prefix.pch";
+				INFOPLIST_FILE = "MemoryLeak/MemoryLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5AE50181437816B00975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryLeak/MemoryLeak-Prefix.pch";
+				INFOPLIST_FILE = "MemoryLeak/MemoryLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AE4FF21437816B00975944 /* Build configuration list for PBXProject "MemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE50141437816B00975944 /* Debug */,
+				E5AE50151437816B00975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AE50161437816B00975944 /* Build configuration list for PBXNativeTarget "MemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE50171437816B00975944 /* Debug */,
+				E5AE50181437816B00975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AE4FEF1437816B00975944 /* Project object */;
+}

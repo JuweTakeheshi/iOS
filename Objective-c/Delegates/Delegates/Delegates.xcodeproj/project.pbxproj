@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AE507E1437B62100975944 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AE507D1437B62100975944 /* Cocoa.framework */; };
+		E5AE50881437B62100975944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5AE50861437B62100975944 /* InfoPlist.strings */; };
+		E5AE508A1437B62100975944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE50891437B62100975944 /* main.m */; };
+		E5AE508E1437B62200975944 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E5AE508C1437B62200975944 /* Credits.rtf */; };
+		E5AE50911437B62200975944 /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE50901437B62200975944 /* RKUAppDelegate.m */; };
+		E5AE50941437B62200975944 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5AE50921437B62200975944 /* MainMenu.xib */; };
+		E5AE509C1437B68400975944 /* FlickPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE509B1437B68400975944 /* FlickPhotos.m */; };
+		E5AE509F1437B74300975944 /* FlickFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE509E1437B74300975944 /* FlickFetcher.m */; };
+		E5AE50A21437BD7F00975944 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE50A11437BD7F00975944 /* FlickrPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5AE50791437B62100975944 /* Delegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AE507D1437B62100975944 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E5AE50801437B62100975944 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E5AE50811437B62100975944 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E5AE50821437B62100975944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5AE50851437B62100975944 /* Delegates-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Delegates-Info.plist"; sourceTree = "<group>"; };
+		E5AE50871437B62100975944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5AE50891437B62100975944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AE508B1437B62100975944 /* Delegates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Delegates-Prefix.pch"; sourceTree = "<group>"; };
+		E5AE508D1437B62200975944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E5AE508F1437B62200975944 /* RKUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		E5AE50901437B62200975944 /* RKUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		E5AE50931437B62200975944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E5AE509A1437B68400975944 /* FlickPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickPhotos.h; sourceTree = "<group>"; };
+		E5AE509B1437B68400975944 /* FlickPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickPhotos.m; sourceTree = "<group>"; };
+		E5AE509D1437B74300975944 /* FlickFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickFetcher.h; sourceTree = "<group>"; };
+		E5AE509E1437B74300975944 /* FlickFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickFetcher.m; sourceTree = "<group>"; };
+		E5AE50A01437BD7F00975944 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		E5AE50A11437BD7F00975944 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		E5AE50A31437C15700975944 /* FlickrFetcherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcherProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AE50761437B62100975944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE507E1437B62100975944 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AE506E1437B62100975944 = {
+			isa = PBXGroup;
+			children = (
+				E5AE50831437B62100975944 /* Delegates */,
+				E5AE507C1437B62100975944 /* Frameworks */,
+				E5AE507A1437B62100975944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AE507A1437B62100975944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE50791437B62100975944 /* Delegates.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AE507C1437B62100975944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE507D1437B62100975944 /* Cocoa.framework */,
+				E5AE507F1437B62100975944 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5AE507F1437B62100975944 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE50801437B62100975944 /* AppKit.framework */,
+				E5AE50811437B62100975944 /* CoreData.framework */,
+				E5AE50821437B62100975944 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E5AE50831437B62100975944 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE508F1437B62200975944 /* RKUAppDelegate.h */,
+				E5AE50901437B62200975944 /* RKUAppDelegate.m */,
+				E5AE50921437B62200975944 /* MainMenu.xib */,
+				E5AE50841437B62100975944 /* Supporting Files */,
+				E5AE509A1437B68400975944 /* FlickPhotos.h */,
+				E5AE509B1437B68400975944 /* FlickPhotos.m */,
+				E5AE509D1437B74300975944 /* FlickFetcher.h */,
+				E5AE509E1437B74300975944 /* FlickFetcher.m */,
+				E5AE50A01437BD7F00975944 /* FlickrPhoto.h */,
+				E5AE50A11437BD7F00975944 /* FlickrPhoto.m */,
+				E5AE50A31437C15700975944 /* FlickrFetcherProtocol.h */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E5AE50841437B62100975944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE50851437B62100975944 /* Delegates-Info.plist */,
+				E5AE50861437B62100975944 /* InfoPlist.strings */,
+				E5AE50891437B62100975944 /* main.m */,
+				E5AE508B1437B62100975944 /* Delegates-Prefix.pch */,
+				E5AE508C1437B62200975944 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AE50781437B62100975944 /* Delegates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AE50971437B62200975944 /* Build configuration list for PBXNativeTarget "Delegates" */;
+			buildPhases = (
+				E5AE50751437B62100975944 /* Sources */,
+				E5AE50761437B62100975944 /* Frameworks */,
+				E5AE50771437B62100975944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Delegates;
+			productName = Delegates;
+			productReference = E5AE50791437B62100975944 /* Delegates.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AE50701437B62100975944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5AE50731437B62100975944 /* Build configuration list for PBXProject "Delegates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5AE506E1437B62100975944;
+			productRefGroup = E5AE507A1437B62100975944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AE50781437B62100975944 /* Delegates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AE50771437B62100975944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE50881437B62100975944 /* InfoPlist.strings in Resources */,
+				E5AE508E1437B62200975944 /* Credits.rtf in Resources */,
+				E5AE50941437B62200975944 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AE50751437B62100975944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE508A1437B62100975944 /* main.m in Sources */,
+				E5AE50911437B62200975944 /* RKUAppDelegate.m in Sources */,
+				E5AE509C1437B68400975944 /* FlickPhotos.m in Sources */,
+				E5AE509F1437B74300975944 /* FlickFetcher.m in Sources */,
+				E5AE50A21437BD7F00975944 /* FlickrPhoto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5AE50861437B62100975944 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AE50871437B62100975944 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5AE508C1437B62200975944 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AE508D1437B62200975944 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E5AE50921437B62200975944 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AE50931437B62200975944 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5AE50951437B62200975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5AE50961437B62200975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5AE50981437B62200975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delegates/Delegates-Prefix.pch";
+				INFOPLIST_FILE = "Delegates/Delegates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5AE50991437B62200975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delegates/Delegates-Prefix.pch";
+				INFOPLIST_FILE = "Delegates/Delegates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AE50731437B62100975944 /* Build configuration list for PBXProject "Delegates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE50951437B62200975944 /* Debug */,
+				E5AE50961437B62200975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AE50971437B62200975944 /* Build configuration list for PBXNativeTarget "Delegates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE50981437B62200975944 /* Debug */,
+				E5AE50991437B62200975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AE50701437B62100975944 /* Project object */;
+}

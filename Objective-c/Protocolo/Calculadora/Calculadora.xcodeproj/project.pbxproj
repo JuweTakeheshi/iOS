@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AE5054143799D200975944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AE5053143799D200975944 /* Foundation.framework */; };
+		E5AE5057143799D200975944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE5056143799D200975944 /* main.m */; };
+		E5AE505B143799D200975944 /* Calculadora.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5AE505A143799D200975944 /* Calculadora.1 */; };
+		E5AE506714379AD900975944 /* FabricaDeCalculadoras.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE506614379AD900975944 /* FabricaDeCalculadoras.m */; };
+		E5AE506A14379B1600975944 /* CalculadoraKinder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE506914379B1600975944 /* CalculadoraKinder.m */; };
+		E5AE506D14379E1900975944 /* CalculadoraCientifica.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE506C14379E1900975944 /* CalculadoraCientifica.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5AE504D143799D200975944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E5AE505B143799D200975944 /* Calculadora.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5AE504F143799D200975944 /* Calculadora */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculadora; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AE5053143799D200975944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5AE5056143799D200975944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AE5059143799D200975944 /* Calculadora-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculadora-Prefix.pch"; sourceTree = "<group>"; };
+		E5AE505A143799D200975944 /* Calculadora.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Calculadora.1; sourceTree = "<group>"; };
+		E5AE5061143799FA00975944 /* CalculadoraProtocolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculadoraProtocolo.h; sourceTree = "<group>"; };
+		E5AE506514379AD900975944 /* FabricaDeCalculadoras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabricaDeCalculadoras.h; sourceTree = "<group>"; };
+		E5AE506614379AD900975944 /* FabricaDeCalculadoras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabricaDeCalculadoras.m; sourceTree = "<group>"; };
+		E5AE506814379B1600975944 /* CalculadoraKinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculadoraKinder.h; sourceTree = "<group>"; };
+		E5AE506914379B1600975944 /* CalculadoraKinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculadoraKinder.m; sourceTree = "<group>"; };
+		E5AE506B14379E1900975944 /* CalculadoraCientifica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculadoraCientifica.h; sourceTree = "<group>"; };
+		E5AE506C14379E1900975944 /* CalculadoraCientifica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculadoraCientifica.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AE504C143799D200975944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE5054143799D200975944 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AE5044143799D200975944 = {
+			isa = PBXGroup;
+			children = (
+				E5AE5055143799D200975944 /* Calculadora */,
+				E5AE5052143799D200975944 /* Frameworks */,
+				E5AE5050143799D200975944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AE5050143799D200975944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE504F143799D200975944 /* Calculadora */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AE5052143799D200975944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE5053143799D200975944 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5AE5055143799D200975944 /* Calculadora */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE5056143799D200975944 /* main.m */,
+				E5AE505A143799D200975944 /* Calculadora.1 */,
+				E5AE5058143799D200975944 /* Supporting Files */,
+				E5AE5061143799FA00975944 /* CalculadoraProtocolo.h */,
+				E5AE506514379AD900975944 /* FabricaDeCalculadoras.h */,
+				E5AE506614379AD900975944 /* FabricaDeCalculadoras.m */,
+				E5AE506814379B1600975944 /* CalculadoraKinder.h */,
+				E5AE506914379B1600975944 /* CalculadoraKinder.m */,
+				E5AE506B14379E1900975944 /* CalculadoraCientifica.h */,
+				E5AE506C14379E1900975944 /* CalculadoraCientifica.m */,
+			);
+			path = Calculadora;
+			sourceTree = "<group>";
+		};
+		E5AE5058143799D200975944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE5059143799D200975944 /* Calculadora-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AE504E143799D200975944 /* Calculadora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AE505E143799D200975944 /* Build configuration list for PBXNativeTarget "Calculadora" */;
+			buildPhases = (
+				E5AE504B143799D200975944 /* Sources */,
+				E5AE504C143799D200975944 /* Frameworks */,
+				E5AE504D143799D200975944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calculadora;
+			productName = Calculadora;
+			productReference = E5AE504F143799D200975944 /* Calculadora */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AE5046143799D200975944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5AE5049143799D200975944 /* Build configuration list for PBXProject "Calculadora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5AE5044143799D200975944;
+			productRefGroup = E5AE5050143799D200975944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AE504E143799D200975944 /* Calculadora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AE504B143799D200975944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE5057143799D200975944 /* main.m in Sources */,
+				E5AE506714379AD900975944 /* FabricaDeCalculadoras.m in Sources */,
+				E5AE506A14379B1600975944 /* CalculadoraKinder.m in Sources */,
+				E5AE506D14379E1900975944 /* CalculadoraCientifica.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5AE505C143799D200975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5AE505D143799D200975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5AE505F143799D200975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculadora/Calculadora-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5AE5060143799D200975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculadora/Calculadora-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AE5049143799D200975944 /* Build configuration list for PBXProject "Calculadora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE505C143799D200975944 /* Debug */,
+				E5AE505D143799D200975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AE505E143799D200975944 /* Build configuration list for PBXNativeTarget "Calculadora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE505F143799D200975944 /* Debug */,
+				E5AE5060143799D200975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AE5046143799D200975944 /* Project object */;
+}

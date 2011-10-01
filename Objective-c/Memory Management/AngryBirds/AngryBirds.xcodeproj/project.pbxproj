@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AE4FDD1437624B00975944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AE4FDC1437624B00975944 /* Foundation.framework */; };
+		E5AE4FE01437624B00975944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE4FDF1437624B00975944 /* main.m */; };
+		E5AE4FE41437624B00975944 /* AngryBirds.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5AE4FE31437624B00975944 /* AngryBirds.1 */; };
+		E5AE4FEC143762EC00975944 /* RedBird.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE4FEB143762EC00975944 /* RedBird.m */; };
+		E5AE502214378DD300975944 /* YellowBird.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE502114378DD300975944 /* YellowBird.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5AE4FD61437624B00975944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E5AE4FE41437624B00975944 /* AngryBirds.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5AE4FD81437624B00975944 /* AngryBirds */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AngryBirds; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AE4FDC1437624B00975944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5AE4FDF1437624B00975944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AE4FE21437624B00975944 /* AngryBirds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AngryBirds-Prefix.pch"; sourceTree = "<group>"; };
+		E5AE4FE31437624B00975944 /* AngryBirds.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AngryBirds.1; sourceTree = "<group>"; };
+		E5AE4FEA143762EC00975944 /* RedBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBird.h; sourceTree = "<group>"; };
+		E5AE4FEB143762EC00975944 /* RedBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBird.m; sourceTree = "<group>"; };
+		E5AE502014378DD300975944 /* YellowBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowBird.h; sourceTree = "<group>"; };
+		E5AE502114378DD300975944 /* YellowBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowBird.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AE4FD51437624B00975944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE4FDD1437624B00975944 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AE4FCD1437624A00975944 = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FDE1437624B00975944 /* AngryBirds */,
+				E5AE4FDB1437624B00975944 /* Frameworks */,
+				E5AE4FD91437624B00975944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AE4FD91437624B00975944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FD81437624B00975944 /* AngryBirds */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AE4FDB1437624B00975944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FDC1437624B00975944 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5AE4FDE1437624B00975944 /* AngryBirds */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FDF1437624B00975944 /* main.m */,
+				E5AE4FE31437624B00975944 /* AngryBirds.1 */,
+				E5AE4FE11437624B00975944 /* Supporting Files */,
+				E5AE4FEA143762EC00975944 /* RedBird.h */,
+				E5AE4FEB143762EC00975944 /* RedBird.m */,
+				E5AE502014378DD300975944 /* YellowBird.h */,
+				E5AE502114378DD300975944 /* YellowBird.m */,
+			);
+			path = AngryBirds;
+			sourceTree = "<group>";
+		};
+		E5AE4FE11437624B00975944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AE4FE21437624B00975944 /* AngryBirds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AE4FD71437624B00975944 /* AngryBirds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AE4FE71437624B00975944 /* Build configuration list for PBXNativeTarget "AngryBirds" */;
+			buildPhases = (
+				E5AE4FD41437624B00975944 /* Sources */,
+				E5AE4FD51437624B00975944 /* Frameworks */,
+				E5AE4FD61437624B00975944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryBirds;
+			productName = AngryBirds;
+			productReference = E5AE4FD81437624B00975944 /* AngryBirds */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AE4FCF1437624A00975944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5AE4FD21437624A00975944 /* Build configuration list for PBXProject "AngryBirds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5AE4FCD1437624A00975944;
+			productRefGroup = E5AE4FD91437624B00975944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AE4FD71437624B00975944 /* AngryBirds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AE4FD41437624B00975944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE4FE01437624B00975944 /* main.m in Sources */,
+				E5AE4FEC143762EC00975944 /* RedBird.m in Sources */,
+				E5AE502214378DD300975944 /* YellowBird.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5AE4FE51437624B00975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5AE4FE61437624B00975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5AE4FE81437624B00975944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5AE4FE91437624B00975944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AE4FD21437624A00975944 /* Build configuration list for PBXProject "AngryBirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE4FE51437624B00975944 /* Debug */,
+				E5AE4FE61437624B00975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AE4FE71437624B00975944 /* Build configuration list for PBXNativeTarget "AngryBirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE4FE81437624B00975944 /* Debug */,
+				E5AE4FE91437624B00975944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AE4FCF1437624A00975944 /* Project object */;
+}
