@@ -16,6 +16,8 @@
 		E5A614611440B5790008C746 /* RKUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614601440B5790008C746 /* RKUMasterViewController.m */; };
 		E5A614671440B5790008C746 /* RKUMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A614651440B5790008C746 /* RKUMasterViewController.xib */; };
 		E5A614721440B7870008C746 /* Participante.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614711440B7870008C746 /* Participante.m */; };
+		E5A614781440CED40008C746 /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A614771440CED40008C746 /* AddView.xib */; };
+		E5A6147B1440CF6C0008C746 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6147A1440CF6C0008C746 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		E5A614661440B5790008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUMasterViewController.xib; sourceTree = "<group>"; };
 		E5A614701440B7870008C746 /* Participante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participante.h; sourceTree = "<group>"; };
 		E5A614711440B7870008C746 /* Participante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participante.m; sourceTree = "<group>"; };
+		E5A614771440CED40008C746 /* AddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
+		E5A614791440CF6C0008C746 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		E5A6147A1440CF6C0008C746 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,9 @@
 		E5A6143E1440B5780008C746 = {
 			isa = PBXGroup;
 			children = (
+				E5A614771440CED40008C746 /* AddView.xib */,
+				E5A614791440CF6C0008C746 /* AddViewController.h */,
+				E5A6147A1440CF6C0008C746 /* AddViewController.m */,
 				E5A614531440B5790008C746 /* TableView */,
 				E5A6144C1440B5790008C746 /* Frameworks */,
 				E5A6144A1440B5790008C746 /* Products */,
@@ -155,6 +163,7 @@
 			files = (
 				E5A614581440B5790008C746 /* InfoPlist.strings in Resources */,
 				E5A614671440B5790008C746 /* RKUMasterViewController.xib in Resources */,
+				E5A614781440CED40008C746 /* AddView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 				E5A6145E1440B5790008C746 /* RKUAppDelegate.m in Sources */,
 				E5A614611440B5790008C746 /* RKUMasterViewController.m in Sources */,
 				E5A614721440B7870008C746 /* Participante.m in Sources */,
+				E5A6147B1440CF6C0008C746 /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

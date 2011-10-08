@@ -8,9 +8,28 @@
 
 #import "RKUMasterViewController.h"
 #import "Participante.h"
+#import "AddViewController.h"
 
 @implementation RKUMasterViewController
 
+- (void)addParticipante:(id)sender {
+    
+    AddViewController * viewController = [[AddViewController alloc] initWithNibName:@"AddView" bundle:nil];
+    
+    viewController.participantes = participantes;
+    
+    [self presentModalViewController:viewController animated:YES];
+
+    [viewController release];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+    
+    [self.tableView reloadData];
+    
+}
 
 - (void)viewDidLoad {
     
@@ -18,9 +37,9 @@
     
     self.title = @"Participantes";
     
-    
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Agregar" style:UIBarButtonItemStyleBordered target:self action:@selector(addParticipante:)] autorelease];
     
     participantes = [[NSMutableArray alloc] init];
     
@@ -49,6 +68,36 @@
     [participante3 release];
     
 }
+
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return YES;
+}
+
+
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
+    
+    [participantes exchangeObjectAtIndex:destinationIndexPath.row withObjectAtIndex:sourceIndexPath.row];
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -88,10 +137,11 @@
     
     if(!cell) {
         
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier] autorelease];
     }
     
     cell.textLabel.text = [[participantes objectAtIndex:indexPath.row] nombre];
+    cell.detailTextLabel.text = [[participantes objectAtIndex:indexPath.row] pais];
     
     return cell;
 }
