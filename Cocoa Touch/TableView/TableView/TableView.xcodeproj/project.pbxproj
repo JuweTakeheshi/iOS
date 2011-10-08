@@ -18,6 +18,11 @@
 		E5A614721440B7870008C746 /* Participante.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614711440B7870008C746 /* Participante.m */; };
 		E5A614781440CED40008C746 /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A614771440CED40008C746 /* AddView.xib */; };
 		E5A6147B1440CF6C0008C746 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6147A1440CF6C0008C746 /* AddViewController.m */; };
+		E5A6147D1440F48B0008C746 /* PaisCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6147C1440F48B0008C746 /* PaisCell.xib */; };
+		E5A614801440F5490008C746 /* PaisCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6147F1440F5490008C746 /* PaisCellView.m */; };
+		E5A614821440F8790008C746 /* Flag of Guatemala.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614811440F8790008C746 /* Flag of Guatemala.png */; };
+		E5A614841440F8880008C746 /* Flag of Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614831440F8880008C746 /* Flag of Mexico.png */; };
+		E5A614861440F8980008C746 /* Flag of United States.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614851440F8970008C746 /* Flag of United States.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,12 @@
 		E5A614771440CED40008C746 /* AddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
 		E5A614791440CF6C0008C746 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		E5A6147A1440CF6C0008C746 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		E5A6147C1440F48B0008C746 /* PaisCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaisCell.xib; sourceTree = "<group>"; };
+		E5A6147E1440F5490008C746 /* PaisCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisCellView.h; sourceTree = "<group>"; };
+		E5A6147F1440F5490008C746 /* PaisCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisCellView.m; sourceTree = "<group>"; };
+		E5A614811440F8790008C746 /* Flag of Guatemala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag of Guatemala.png"; sourceTree = "<group>"; };
+		E5A614831440F8880008C746 /* Flag of Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag of Mexico.png"; sourceTree = "<group>"; };
+		E5A614851440F8970008C746 /* Flag of United States.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag of United States.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +69,15 @@
 		E5A6143E1440B5780008C746 = {
 			isa = PBXGroup;
 			children = (
+				E5A6147C1440F48B0008C746 /* PaisCell.xib */,
+				E5A6147E1440F5490008C746 /* PaisCellView.h */,
+				E5A6147F1440F5490008C746 /* PaisCellView.m */,
 				E5A614771440CED40008C746 /* AddView.xib */,
 				E5A614791440CF6C0008C746 /* AddViewController.h */,
+				E5A614851440F8970008C746 /* Flag of United States.png */,
+				E5A614831440F8880008C746 /* Flag of Mexico.png */,
 				E5A6147A1440CF6C0008C746 /* AddViewController.m */,
+				E5A614811440F8790008C746 /* Flag of Guatemala.png */,
 				E5A614531440B5790008C746 /* TableView */,
 				E5A6144C1440B5790008C746 /* Frameworks */,
 				E5A6144A1440B5790008C746 /* Products */,
@@ -164,6 +181,10 @@
 				E5A614581440B5790008C746 /* InfoPlist.strings in Resources */,
 				E5A614671440B5790008C746 /* RKUMasterViewController.xib in Resources */,
 				E5A614781440CED40008C746 /* AddView.xib in Resources */,
+				E5A6147D1440F48B0008C746 /* PaisCell.xib in Resources */,
+				E5A614821440F8790008C746 /* Flag of Guatemala.png in Resources */,
+				E5A614841440F8880008C746 /* Flag of Mexico.png in Resources */,
+				E5A614861440F8980008C746 /* Flag of United States.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +200,7 @@
 				E5A614611440B5790008C746 /* RKUMasterViewController.m in Sources */,
 				E5A614721440B7870008C746 /* Participante.m in Sources */,
 				E5A6147B1440CF6C0008C746 /* AddViewController.m in Sources */,
+				E5A614801440F5490008C746 /* PaisCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

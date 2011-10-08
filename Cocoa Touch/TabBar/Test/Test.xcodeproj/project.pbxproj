@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5A614FA144102450008C746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A614F9144102450008C746 /* UIKit.framework */; };
+		E5A614FC144102450008C746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A614FB144102450008C746 /* Foundation.framework */; };
+		E5A614FE144102450008C746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A614FD144102450008C746 /* CoreGraphics.framework */; };
+		E5A61504144102450008C746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5A61502144102450008C746 /* InfoPlist.strings */; };
+		E5A61506144102450008C746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A61505144102450008C746 /* main.m */; };
+		E5A6150A144102450008C746 /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A61509144102450008C746 /* RKUAppDelegate.m */; };
+		E5A6150D144102450008C746 /* RKUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6150C144102450008C746 /* RKUFirstViewController.m */; };
+		E5A6150F144102450008C746 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A6150E144102450008C746 /* first.png */; };
+		E5A61511144102450008C746 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A61510144102450008C746 /* first@2x.png */; };
+		E5A61514144102450008C746 /* RKUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A61513144102450008C746 /* RKUSecondViewController.m */; };
+		E5A61516144102450008C746 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A61515144102450008C746 /* second.png */; };
+		E5A61518144102450008C746 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A61517144102450008C746 /* second@2x.png */; };
+		E5A6151B144102460008C746 /* RKUFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A61519144102450008C746 /* RKUFirstViewController.xib */; };
+		E5A6151E144102460008C746 /* RKUSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6151C144102460008C746 /* RKUSecondViewController.xib */; };
+		E5A6152D1441040D0008C746 /* PaisCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A615241441040C0008C746 /* PaisCell.xib */; };
+		E5A6152E1441040D0008C746 /* PaisCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A615261441040C0008C746 /* PaisCellView.m */; };
+		E5A6152F1441040D0008C746 /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A615271441040D0008C746 /* AddView.xib */; };
+		E5A615301441040D0008C746 /* Flag of United States.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A615291441040D0008C746 /* Flag of United States.png */; };
+		E5A615311441040D0008C746 /* Flag of Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A6152A1441040D0008C746 /* Flag of Mexico.png */; };
+		E5A615321441040D0008C746 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6152B1441040D0008C746 /* AddViewController.m */; };
+		E5A615331441040D0008C746 /* Flag of Guatemala.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A6152C1441040D0008C746 /* Flag of Guatemala.png */; };
+		E5A61539144104190008C746 /* RKUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A61535144104190008C746 /* RKUMasterViewController.m */; };
+		E5A6153A144104190008C746 /* Participante.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A61537144104190008C746 /* Participante.m */; };
+		E5A6153B144104190008C746 /* RKUMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A61538144104190008C746 /* RKUMasterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5A614F5144102450008C746 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A614F9144102450008C746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5A614FB144102450008C746 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5A614FD144102450008C746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5A61501144102450008C746 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		E5A61503144102450008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5A61505144102450008C746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5A61507144102450008C746 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
+		E5A61508144102450008C746 /* RKUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		E5A61509144102450008C746 /* RKUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		E5A6150B144102450008C746 /* RKUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUFirstViewController.h; sourceTree = "<group>"; };
+		E5A6150C144102450008C746 /* RKUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUFirstViewController.m; sourceTree = "<group>"; };
+		E5A6150E144102450008C746 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		E5A61510144102450008C746 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		E5A61512144102450008C746 /* RKUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUSecondViewController.h; sourceTree = "<group>"; };
+		E5A61513144102450008C746 /* RKUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUSecondViewController.m; sourceTree = "<group>"; };
+		E5A61515144102450008C746 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		E5A61517144102450008C746 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		E5A6151A144102460008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUFirstViewController.xib; sourceTree = "<group>"; };
+		E5A6151D144102460008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUSecondViewController.xib; sourceTree = "<group>"; };
+		E5A615241441040C0008C746 /* PaisCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaisCell.xib; sourceTree = "<group>"; };
+		E5A615251441040C0008C746 /* PaisCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaisCellView.h; sourceTree = "<group>"; };
+		E5A615261441040C0008C746 /* PaisCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaisCellView.m; sourceTree = "<group>"; };
+		E5A615271441040D0008C746 /* AddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
+		E5A615281441040D0008C746 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		E5A615291441040D0008C746 /* Flag of United States.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag of United States.png"; sourceTree = "<group>"; };
+		E5A6152A1441040D0008C746 /* Flag of Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag of Mexico.png"; sourceTree = "<group>"; };
+		E5A6152B1441040D0008C746 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		E5A6152C1441040D0008C746 /* Flag of Guatemala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag of Guatemala.png"; sourceTree = "<group>"; };
+		E5A61534144104190008C746 /* RKUMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUMasterViewController.h; sourceTree = "<group>"; };
+		E5A61535144104190008C746 /* RKUMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUMasterViewController.m; sourceTree = "<group>"; };
+		E5A61536144104190008C746 /* Participante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participante.h; sourceTree = "<group>"; };
+		E5A61537144104190008C746 /* Participante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participante.m; sourceTree = "<group>"; };
+		E5A61538144104190008C746 /* RKUMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKUMasterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A614F2144102450008C746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A614FA144102450008C746 /* UIKit.framework in Frameworks */,
+				E5A614FC144102450008C746 /* Foundation.framework in Frameworks */,
+				E5A614FE144102450008C746 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5A614EA144102450008C746 = {
+			isa = PBXGroup;
+			children = (
+				E5A614FF144102450008C746 /* Test */,
+				E5A614F8144102450008C746 /* Frameworks */,
+				E5A614F6144102450008C746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5A614F6144102450008C746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614F5144102450008C746 /* Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A614F8144102450008C746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614F9144102450008C746 /* UIKit.framework */,
+				E5A614FB144102450008C746 /* Foundation.framework */,
+				E5A614FD144102450008C746 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A614FF144102450008C746 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E5A61534144104190008C746 /* RKUMasterViewController.h */,
+				E5A61535144104190008C746 /* RKUMasterViewController.m */,
+				E5A61536144104190008C746 /* Participante.h */,
+				E5A61537144104190008C746 /* Participante.m */,
+				E5A61538144104190008C746 /* RKUMasterViewController.xib */,
+				E5A615241441040C0008C746 /* PaisCell.xib */,
+				E5A615251441040C0008C746 /* PaisCellView.h */,
+				E5A615261441040C0008C746 /* PaisCellView.m */,
+				E5A615271441040D0008C746 /* AddView.xib */,
+				E5A615281441040D0008C746 /* AddViewController.h */,
+				E5A615291441040D0008C746 /* Flag of United States.png */,
+				E5A6152A1441040D0008C746 /* Flag of Mexico.png */,
+				E5A6152B1441040D0008C746 /* AddViewController.m */,
+				E5A6152C1441040D0008C746 /* Flag of Guatemala.png */,
+				E5A61508144102450008C746 /* RKUAppDelegate.h */,
+				E5A61509144102450008C746 /* RKUAppDelegate.m */,
+				E5A6150B144102450008C746 /* RKUFirstViewController.h */,
+				E5A6150C144102450008C746 /* RKUFirstViewController.m */,
+				E5A6150E144102450008C746 /* first.png */,
+				E5A61510144102450008C746 /* first@2x.png */,
+				E5A61512144102450008C746 /* RKUSecondViewController.h */,
+				E5A61513144102450008C746 /* RKUSecondViewController.m */,
+				E5A61515144102450008C746 /* second.png */,
+				E5A61517144102450008C746 /* second@2x.png */,
+				E5A61519144102450008C746 /* RKUFirstViewController.xib */,
+				E5A6151C144102460008C746 /* RKUSecondViewController.xib */,
+				E5A61500144102450008C746 /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E5A61500144102450008C746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A61501144102450008C746 /* Test-Info.plist */,
+				E5A61502144102450008C746 /* InfoPlist.strings */,
+				E5A61505144102450008C746 /* main.m */,
+				E5A61507144102450008C746 /* Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A614F4144102450008C746 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A61521144102460008C746 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				E5A614F1144102450008C746 /* Sources */,
+				E5A614F2144102450008C746 /* Frameworks */,
+				E5A614F3144102450008C746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = E5A614F5144102450008C746 /* Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A614EC144102450008C746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5A614EF144102450008C746 /* Build configuration list for PBXProject "Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5A614EA144102450008C746;
+			productRefGroup = E5A614F6144102450008C746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A614F4144102450008C746 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5A614F3144102450008C746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A61504144102450008C746 /* InfoPlist.strings in Resources */,
+				E5A6150F144102450008C746 /* first.png in Resources */,
+				E5A61511144102450008C746 /* first@2x.png in Resources */,
+				E5A61516144102450008C746 /* second.png in Resources */,
+				E5A61518144102450008C746 /* second@2x.png in Resources */,
+				E5A6151B144102460008C746 /* RKUFirstViewController.xib in Resources */,
+				E5A6151E144102460008C746 /* RKUSecondViewController.xib in Resources */,
+				E5A6152D1441040D0008C746 /* PaisCell.xib in Resources */,
+				E5A6152F1441040D0008C746 /* AddView.xib in Resources */,
+				E5A615301441040D0008C746 /* Flag of United States.png in Resources */,
+				E5A615311441040D0008C746 /* Flag of Mexico.png in Resources */,
+				E5A615331441040D0008C746 /* Flag of Guatemala.png in Resources */,
+				E5A6153B144104190008C746 /* RKUMasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5A614F1144102450008C746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A61506144102450008C746 /* main.m in Sources */,
+				E5A6150A144102450008C746 /* RKUAppDelegate.m in Sources */,
+				E5A6150D144102450008C746 /* RKUFirstViewController.m in Sources */,
+				E5A61514144102450008C746 /* RKUSecondViewController.m in Sources */,
+				E5A6152E1441040D0008C746 /* PaisCellView.m in Sources */,
+				E5A615321441040D0008C746 /* AddViewController.m in Sources */,
+				E5A61539144104190008C746 /* RKUMasterViewController.m in Sources */,
+				E5A6153A144104190008C746 /* Participante.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5A61502144102450008C746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A61503144102450008C746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5A61519144102450008C746 /* RKUFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6151A144102460008C746 /* en */,
+			);
+			name = RKUFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		E5A6151C144102460008C746 /* RKUSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6151D144102460008C746 /* en */,
+			);
+			name = RKUSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5A6151F144102460008C746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5A61520144102460008C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5A61522144102460008C746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
+				INFOPLIST_FILE = "Test/Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5A61523144102460008C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
+				INFOPLIST_FILE = "Test/Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5A614EF144102450008C746 /* Build configuration list for PBXProject "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A6151F144102460008C746 /* Debug */,
+				E5A61520144102460008C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A61521144102460008C746 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A61522144102460008C746 /* Debug */,
+				E5A61523144102460008C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5A614EC144102450008C746 /* Project object */;
+}

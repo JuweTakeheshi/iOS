@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5A61497144101B40008C746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A61496144101B40008C746 /* UIKit.framework */; };
+		E5A61499144101B40008C746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A61498144101B40008C746 /* Foundation.framework */; };
+		E5A6149B144101B40008C746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6149A144101B40008C746 /* CoreGraphics.framework */; };
+		E5A6149D144101B40008C746 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6149C144101B40008C746 /* CFNetwork.framework */; };
+		E5A6149F144101B40008C746 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6149E144101B40008C746 /* SystemConfiguration.framework */; };
+		E5A614A1144101B40008C746 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A614A0144101B40008C746 /* MessageUI.framework */; };
+		E5A614A7144101B40008C746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5A614A5144101B40008C746 /* InfoPlist.strings */; };
+		E5A614A9144101B40008C746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614A8144101B40008C746 /* main.m */; };
+		E5A614AC144101B40008C746 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E5A614AB144101B40008C746 /* .gitignore */; };
+		E5A614AE144101B40008C746 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A614AD144101B40008C746 /* Readme.md */; };
+		E5A614B0144101B40008C746 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = E5A614AF144101B40008C746 /* Rakefile */; };
+		E5A614B2144101B40008C746 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A614B1144101B40008C746 /* AppledocSettings.plist */; };
+		E5A614B6144101B40008C746 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614B5144101B40008C746 /* AppIcon.png */; };
+		E5A614B8144101B40008C746 /* AppIcon@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614B7144101B40008C746 /* AppIcon@2X.png */; };
+		E5A614BA144101B40008C746 /* AppIcon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614B9144101B40008C746 /* AppIcon-72.png */; };
+		E5A614BD144101B40008C746 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614BC144101B40008C746 /* Default.png */; };
+		E5A614BF144101B40008C746 /* Default@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614BE144101B40008C746 /* Default@2X.png */; };
+		E5A614C1144101B40008C746 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614C0144101B40008C746 /* Default-Landscape.png */; };
+		E5A614C3144101B40008C746 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A614C2144101B40008C746 /* Default-Portrait.png */; };
+		E5A614C6144101B40008C746 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A614C5144101B40008C746 /* README.md */; };
+		E5A614CA144101B40008C746 /* RKUTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614C9144101B40008C746 /* RKUTabBarAppDelegate.m */; };
+		E5A614CD144101B40008C746 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A614CC144101B40008C746 /* README.md */; };
+		E5A614D0144101B40008C746 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A614CF144101B40008C746 /* README.md */; };
+		E5A614D3144101B40008C746 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A614D2144101B40008C746 /* README.md */; };
+		E5A614D7144101B40008C746 /* RKUMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A614D5144101B40008C746 /* RKUMainWindow.xib */; };
+		E5A614DB144101B40008C746 /* RKUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614DA144101B40008C746 /* RKUFirstViewController.m */; };
+		E5A614DE144101B40008C746 /* RKUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A614DD144101B40008C746 /* RKUSecondViewController.m */; };
+		E5A614E1144101B40008C746 /* RKUFirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A614DF144101B40008C746 /* RKUFirstView.xib */; };
+		E5A614E4144101B40008C746 /* RKUSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A614E2144101B40008C746 /* RKUSecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5A61492144101B40008C746 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A61496144101B40008C746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5A61498144101B40008C746 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5A6149A144101B40008C746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5A6149C144101B40008C746 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E5A6149E144101B40008C746 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E5A614A0144101B40008C746 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E5A614A4144101B40008C746 /* TabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TabBar-Info.plist"; path = "Config/TabBar-Info.plist"; sourceTree = "<group>"; };
+		E5A614A6144101B40008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Config/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5A614A8144101B40008C746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5A614AA144101B40008C746 /* TabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TabBar-Prefix.pch"; path = "Config/TabBar-Prefix.pch"; sourceTree = "<group>"; };
+		E5A614AB144101B40008C746 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
+		E5A614AD144101B40008C746 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = Readme.md; path = ../../../Readme.md; sourceTree = "<group>"; };
+		E5A614AF144101B40008C746 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Rakefile; path = ../Rakefile; sourceTree = "<group>"; };
+		E5A614B1144101B40008C746 /* AppledocSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AppledocSettings.plist; path = ../AppledocSettings.plist; sourceTree = "<group>"; };
+		E5A614B5144101B40008C746 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = Assets/Icons/AppIcon.png; sourceTree = "<group>"; };
+		E5A614B7144101B40008C746 /* AppIcon@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon@2X.png"; path = "Assets/Icons/AppIcon@2X.png"; sourceTree = "<group>"; };
+		E5A614B9144101B40008C746 /* AppIcon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-72.png"; path = "Assets/Icons/AppIcon-72.png"; sourceTree = "<group>"; };
+		E5A614BC144101B40008C746 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Assets/Images/Default.png; sourceTree = "<group>"; };
+		E5A614BE144101B40008C746 /* Default@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2X.png"; path = "Assets/Images/Default@2X.png"; sourceTree = "<group>"; };
+		E5A614C0144101B40008C746 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Assets/Images/Default-Landscape.png"; sourceTree = "<group>"; };
+		E5A614C2144101B40008C746 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Assets/Images/Default-Portrait.png"; sourceTree = "<group>"; };
+		E5A614C5144101B40008C746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = Categories/README.md; sourceTree = "<group>"; };
+		E5A614C8144101B40008C746 /* RKUTabBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RKUTabBarAppDelegate.h; path = Delegate/RKUTabBarAppDelegate.h; sourceTree = "<group>"; };
+		E5A614C9144101B40008C746 /* RKUTabBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RKUTabBarAppDelegate.m; path = Delegate/RKUTabBarAppDelegate.m; sourceTree = "<group>"; };
+		E5A614CC144101B40008C746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = Helpers/README.md; sourceTree = "<group>"; };
+		E5A614CF144101B40008C746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = Models/README.md; sourceTree = "<group>"; };
+		E5A614D2144101B40008C746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = Protocols/README.md; sourceTree = "<group>"; };
+		E5A614D6144101B40008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Views/en.lproj/RKUMainWindow.xib; sourceTree = "<group>"; };
+		E5A614D9144101B40008C746 /* RKUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RKUFirstViewController.h; path = Controllers/RKUFirstViewController.h; sourceTree = "<group>"; };
+		E5A614DA144101B40008C746 /* RKUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RKUFirstViewController.m; path = Controllers/RKUFirstViewController.m; sourceTree = "<group>"; };
+		E5A614DC144101B40008C746 /* RKUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RKUSecondViewController.h; path = Controllers/RKUSecondViewController.h; sourceTree = "<group>"; };
+		E5A614DD144101B40008C746 /* RKUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RKUSecondViewController.m; path = Controllers/RKUSecondViewController.m; sourceTree = "<group>"; };
+		E5A614E0144101B40008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Views/en.lproj/RKUFirstView.xib; sourceTree = "<group>"; };
+		E5A614E3144101B40008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Views/en.lproj/RKUSecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A6148F144101B40008C746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A61497144101B40008C746 /* UIKit.framework in Frameworks */,
+				E5A61499144101B40008C746 /* Foundation.framework in Frameworks */,
+				E5A6149B144101B40008C746 /* CoreGraphics.framework in Frameworks */,
+				E5A6149D144101B40008C746 /* CFNetwork.framework in Frameworks */,
+				E5A6149F144101B40008C746 /* SystemConfiguration.framework in Frameworks */,
+				E5A614A1144101B40008C746 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5A61487144101B40008C746 = {
+			isa = PBXGroup;
+			children = (
+				E5A614A2144101B40008C746 /* TabBar */,
+				E5A61495144101B40008C746 /* Frameworks */,
+				E5A61493144101B40008C746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5A61493144101B40008C746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5A61492144101B40008C746 /* TabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A61495144101B40008C746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A61496144101B40008C746 /* UIKit.framework */,
+				E5A61498144101B40008C746 /* Foundation.framework */,
+				E5A6149A144101B40008C746 /* CoreGraphics.framework */,
+				E5A6149C144101B40008C746 /* CFNetwork.framework */,
+				E5A6149E144101B40008C746 /* SystemConfiguration.framework */,
+				E5A614A0144101B40008C746 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A614A2144101B40008C746 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614A8144101B40008C746 /* main.m */,
+				E5A614A3144101B40008C746 /* Config */,
+				E5A614B3144101B40008C746 /* Assets */,
+				E5A614C4144101B40008C746 /* Categories */,
+				E5A614C7144101B40008C746 /* Delegate */,
+				E5A614CB144101B40008C746 /* Helpers */,
+				E5A614CE144101B40008C746 /* Models */,
+				E5A614D1144101B40008C746 /* Protocols */,
+				E5A614D4144101B40008C746 /* Views */,
+				E5A614D8144101B40008C746 /* Controllers */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E5A614A3144101B40008C746 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614A4144101B40008C746 /* TabBar-Info.plist */,
+				E5A614A5144101B40008C746 /* InfoPlist.strings */,
+				E5A614AA144101B40008C746 /* TabBar-Prefix.pch */,
+				E5A614AB144101B40008C746 /* .gitignore */,
+				E5A614AD144101B40008C746 /* Readme.md */,
+				E5A614AF144101B40008C746 /* Rakefile */,
+				E5A614B1144101B40008C746 /* AppledocSettings.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E5A614B3144101B40008C746 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614B4144101B40008C746 /* Icons */,
+				E5A614BB144101B40008C746 /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E5A614B4144101B40008C746 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614B5144101B40008C746 /* AppIcon.png */,
+				E5A614B7144101B40008C746 /* AppIcon@2X.png */,
+				E5A614B9144101B40008C746 /* AppIcon-72.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		E5A614BB144101B40008C746 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614BC144101B40008C746 /* Default.png */,
+				E5A614BE144101B40008C746 /* Default@2X.png */,
+				E5A614C0144101B40008C746 /* Default-Landscape.png */,
+				E5A614C2144101B40008C746 /* Default-Portrait.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E5A614C4144101B40008C746 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614C5144101B40008C746 /* README.md */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		E5A614C7144101B40008C746 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614C8144101B40008C746 /* RKUTabBarAppDelegate.h */,
+				E5A614C9144101B40008C746 /* RKUTabBarAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		E5A614CB144101B40008C746 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614CC144101B40008C746 /* README.md */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E5A614CE144101B40008C746 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614CF144101B40008C746 /* README.md */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E5A614D1144101B40008C746 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614D2144101B40008C746 /* README.md */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E5A614D4144101B40008C746 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614D5144101B40008C746 /* RKUMainWindow.xib */,
+				E5A614DF144101B40008C746 /* RKUFirstView.xib */,
+				E5A614E2144101B40008C746 /* RKUSecondView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E5A614D8144101B40008C746 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5A614D9144101B40008C746 /* RKUFirstViewController.h */,
+				E5A614DA144101B40008C746 /* RKUFirstViewController.m */,
+				E5A614DC144101B40008C746 /* RKUSecondViewController.h */,
+				E5A614DD144101B40008C746 /* RKUSecondViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A61491144101B40008C746 /* TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A614E7144101B40008C746 /* Build configuration list for PBXNativeTarget "TabBar" */;
+			buildPhases = (
+				E5A6148E144101B40008C746 /* Sources */,
+				E5A6148F144101B40008C746 /* Frameworks */,
+				E5A61490144101B40008C746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBar;
+			productName = TabBar;
+			productReference = E5A61492144101B40008C746 /* TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A61489144101B40008C746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5A6148C144101B40008C746 /* Build configuration list for PBXProject "TabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5A61487144101B40008C746;
+			productRefGroup = E5A61493144101B40008C746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A61491144101B40008C746 /* TabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5A61490144101B40008C746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A614A7144101B40008C746 /* InfoPlist.strings in Resources */,
+				E5A614AC144101B40008C746 /* .gitignore in Resources */,
+				E5A614AE144101B40008C746 /* Readme.md in Resources */,
+				E5A614B0144101B40008C746 /* Rakefile in Resources */,
+				E5A614B2144101B40008C746 /* AppledocSettings.plist in Resources */,
+				E5A614B6144101B40008C746 /* AppIcon.png in Resources */,
+				E5A614B8144101B40008C746 /* AppIcon@2X.png in Resources */,
+				E5A614BA144101B40008C746 /* AppIcon-72.png in Resources */,
+				E5A614BD144101B40008C746 /* Default.png in Resources */,
+				E5A614BF144101B40008C746 /* Default@2X.png in Resources */,
+				E5A614C1144101B40008C746 /* Default-Landscape.png in Resources */,
+				E5A614C3144101B40008C746 /* Default-Portrait.png in Resources */,
+				E5A614C6144101B40008C746 /* README.md in Resources */,
+				E5A614CD144101B40008C746 /* README.md in Resources */,
+				E5A614D0144101B40008C746 /* README.md in Resources */,
+				E5A614D3144101B40008C746 /* README.md in Resources */,
+				E5A614D7144101B40008C746 /* RKUMainWindow.xib in Resources */,
+				E5A614E1144101B40008C746 /* RKUFirstView.xib in Resources */,
+				E5A614E4144101B40008C746 /* RKUSecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5A6148E144101B40008C746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A614A9144101B40008C746 /* main.m in Sources */,
+				E5A614CA144101B40008C746 /* RKUTabBarAppDelegate.m in Sources */,
+				E5A614DB144101B40008C746 /* RKUFirstViewController.m in Sources */,
+				E5A614DE144101B40008C746 /* RKUSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5A614A5144101B40008C746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A614A6144101B40008C746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5A614D5144101B40008C746 /* RKUMainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A614D6144101B40008C746 /* en */,
+			);
+			name = RKUMainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E5A614DF144101B40008C746 /* RKUFirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A614E0144101B40008C746 /* en */,
+			);
+			name = RKUFirstView.xib;
+			sourceTree = "<group>";
+		};
+		E5A614E2144101B40008C746 /* RKUSecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A614E3144101B40008C746 /* en */,
+			);
+			name = RKUSecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5A614E5144101B40008C746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E5A614E6144101B40008C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		E5A614E8144101B40008C746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBar/Config/TabBar-Prefix.pch";
+				INFOPLIST_FILE = "TabBar/Config/TabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5A614E9144101B40008C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBar/Config/TabBar-Prefix.pch";
+				INFOPLIST_FILE = "TabBar/Config/TabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5A6148C144101B40008C746 /* Build configuration list for PBXProject "TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A614E5144101B40008C746 /* Debug */,
+				E5A614E6144101B40008C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A614E7144101B40008C746 /* Build configuration list for PBXNativeTarget "TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A614E8144101B40008C746 /* Debug */,
+				E5A614E9144101B40008C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5A61489144101B40008C746 /* Project object */;
+}
