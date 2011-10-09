@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5A6155014410F300008C746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6154F14410F300008C746 /* UIKit.framework */; };
+		E5A6155214410F300008C746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6155114410F300008C746 /* Foundation.framework */; };
+		E5A6155414410F300008C746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6155314410F300008C746 /* CoreGraphics.framework */; };
+		E5A6155A14410F300008C746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5A6155814410F300008C746 /* InfoPlist.strings */; };
+		E5A6155C14410F300008C746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6155B14410F300008C746 /* main.m */; };
+		E5A6156014410F300008C746 /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6155F14410F300008C746 /* RKUAppDelegate.m */; };
+		E5A6156314410F300008C746 /* RKUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6156214410F300008C746 /* RKUMasterViewController.m */; };
+		E5A6156614410F300008C746 /* RKUDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6156514410F300008C746 /* RKUDetailViewController.m */; };
+		E5A6156914410F300008C746 /* RKUMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6156714410F300008C746 /* RKUMasterViewController.xib */; };
+		E5A6156C14410F300008C746 /* RKUDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6156A14410F300008C746 /* RKUDetailViewController.xib */; };
+		E5A6157414410F740008C746 /* Cartelera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5A6157214410F740008C746 /* Cartelera.xcdatamodeld */; };
+		E5A6157C144113310008C746 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6157B144113310008C746 /* CoreData.framework */; };
+		E5A6157F144126B80008C746 /* Cine.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6157E144126B80008C746 /* Cine.m */; };
+		E5A61582144126B80008C746 /* Pelicula.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A61581144126B80008C746 /* Pelicula.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5A6154B14410F300008C746 /* Cartelera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cartelera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A6154F14410F300008C746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5A6155114410F300008C746 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5A6155314410F300008C746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5A6155714410F300008C746 /* Cartelera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cartelera-Info.plist"; sourceTree = "<group>"; };
+		E5A6155914410F300008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5A6155B14410F300008C746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5A6155D14410F300008C746 /* Cartelera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cartelera-Prefix.pch"; sourceTree = "<group>"; };
+		E5A6155E14410F300008C746 /* RKUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		E5A6155F14410F300008C746 /* RKUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		E5A6156114410F300008C746 /* RKUMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUMasterViewController.h; sourceTree = "<group>"; };
+		E5A6156214410F300008C746 /* RKUMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUMasterViewController.m; sourceTree = "<group>"; };
+		E5A6156414410F300008C746 /* RKUDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUDetailViewController.h; sourceTree = "<group>"; };
+		E5A6156514410F300008C746 /* RKUDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUDetailViewController.m; sourceTree = "<group>"; };
+		E5A6156814410F300008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUMasterViewController.xib; sourceTree = "<group>"; };
+		E5A6156B14410F300008C746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUDetailViewController.xib; sourceTree = "<group>"; };
+		E5A6157314410F740008C746 /* Cartelera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cartelera.xcdatamodel; sourceTree = "<group>"; };
+		E5A6157B144113310008C746 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E5A6157D144126B80008C746 /* Cine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cine.h; sourceTree = "<group>"; };
+		E5A6157E144126B80008C746 /* Cine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cine.m; sourceTree = "<group>"; };
+		E5A61580144126B80008C746 /* Pelicula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pelicula.h; sourceTree = "<group>"; };
+		E5A61581144126B80008C746 /* Pelicula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pelicula.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A6154814410F300008C746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6157C144113310008C746 /* CoreData.framework in Frameworks */,
+				E5A6155014410F300008C746 /* UIKit.framework in Frameworks */,
+				E5A6155214410F300008C746 /* Foundation.framework in Frameworks */,
+				E5A6155414410F300008C746 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5A6154014410F300008C746 = {
+			isa = PBXGroup;
+			children = (
+				E5A61580144126B80008C746 /* Pelicula.h */,
+				E5A61581144126B80008C746 /* Pelicula.m */,
+				E5A6157D144126B80008C746 /* Cine.h */,
+				E5A6157E144126B80008C746 /* Cine.m */,
+				E5A6157214410F740008C746 /* Cartelera.xcdatamodeld */,
+				E5A6155514410F300008C746 /* Cartelera */,
+				E5A6154E14410F300008C746 /* Frameworks */,
+				E5A6154C14410F300008C746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5A6154C14410F300008C746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6154B14410F300008C746 /* Cartelera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A6154E14410F300008C746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6157B144113310008C746 /* CoreData.framework */,
+				E5A6154F14410F300008C746 /* UIKit.framework */,
+				E5A6155114410F300008C746 /* Foundation.framework */,
+				E5A6155314410F300008C746 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A6155514410F300008C746 /* Cartelera */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6155E14410F300008C746 /* RKUAppDelegate.h */,
+				E5A6155F14410F300008C746 /* RKUAppDelegate.m */,
+				E5A6156114410F300008C746 /* RKUMasterViewController.h */,
+				E5A6156214410F300008C746 /* RKUMasterViewController.m */,
+				E5A6156414410F300008C746 /* RKUDetailViewController.h */,
+				E5A6156514410F300008C746 /* RKUDetailViewController.m */,
+				E5A6156714410F300008C746 /* RKUMasterViewController.xib */,
+				E5A6156A14410F300008C746 /* RKUDetailViewController.xib */,
+				E5A6155614410F300008C746 /* Supporting Files */,
+			);
+			path = Cartelera;
+			sourceTree = "<group>";
+		};
+		E5A6155614410F300008C746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6155714410F300008C746 /* Cartelera-Info.plist */,
+				E5A6155814410F300008C746 /* InfoPlist.strings */,
+				E5A6155B14410F300008C746 /* main.m */,
+				E5A6155D14410F300008C746 /* Cartelera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A6154A14410F300008C746 /* Cartelera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A6156F14410F300008C746 /* Build configuration list for PBXNativeTarget "Cartelera" */;
+			buildPhases = (
+				E5A6154714410F300008C746 /* Sources */,
+				E5A6154814410F300008C746 /* Frameworks */,
+				E5A6154914410F300008C746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartelera;
+			productName = Cartelera;
+			productReference = E5A6154B14410F300008C746 /* Cartelera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A6154214410F300008C746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E5A6154514410F300008C746 /* Build configuration list for PBXProject "Cartelera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5A6154014410F300008C746;
+			productRefGroup = E5A6154C14410F300008C746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A6154A14410F300008C746 /* Cartelera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5A6154914410F300008C746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6155A14410F300008C746 /* InfoPlist.strings in Resources */,
+				E5A6156914410F300008C746 /* RKUMasterViewController.xib in Resources */,
+				E5A6156C14410F300008C746 /* RKUDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5A6154714410F300008C746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6155C14410F300008C746 /* main.m in Sources */,
+				E5A6156014410F300008C746 /* RKUAppDelegate.m in Sources */,
+				E5A6156314410F300008C746 /* RKUMasterViewController.m in Sources */,
+				E5A6156614410F300008C746 /* RKUDetailViewController.m in Sources */,
+				E5A6157414410F740008C746 /* Cartelera.xcdatamodeld in Sources */,
+				E5A6157F144126B80008C746 /* Cine.m in Sources */,
+				E5A61582144126B80008C746 /* Pelicula.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5A6155814410F300008C746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6155914410F300008C746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5A6156714410F300008C746 /* RKUMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6156814410F300008C746 /* en */,
+			);
+			name = RKUMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		E5A6156A14410F300008C746 /* RKUDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6156B14410F300008C746 /* en */,
+			);
+			name = RKUDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5A6156D14410F300008C746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5A6156E14410F300008C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5A6157014410F300008C746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cartelera/Cartelera-Prefix.pch";
+				INFOPLIST_FILE = "Cartelera/Cartelera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5A6157114410F300008C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cartelera/Cartelera-Prefix.pch";
+				INFOPLIST_FILE = "Cartelera/Cartelera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5A6154514410F300008C746 /* Build configuration list for PBXProject "Cartelera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A6156D14410F300008C746 /* Debug */,
+				E5A6156E14410F300008C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A6156F14410F300008C746 /* Build configuration list for PBXNativeTarget "Cartelera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A6157014410F300008C746 /* Debug */,
+				E5A6157114410F300008C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5A6157214410F740008C746 /* Cartelera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5A6157314410F740008C746 /* Cartelera.xcdatamodel */,
+			);
+			currentVersion = E5A6157314410F740008C746 /* Cartelera.xcdatamodel */;
+			path = Cartelera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5A6154214410F300008C746 /* Project object */;
+}
