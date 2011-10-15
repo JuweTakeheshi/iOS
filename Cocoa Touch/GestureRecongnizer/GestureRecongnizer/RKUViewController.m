@@ -32,6 +32,8 @@
     longPress.minimumPressDuration = 2;
     
     [_cuadritoView addGestureRecognizer:longPress];
+    
+    _cuadritoView.transform = CGAffineTransformMakeScale(?);
 }
 
 

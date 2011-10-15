@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5107609144A210F0000A608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5107608144A210F0000A608 /* UIKit.framework */; };
+		E510760B144A210F0000A608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E510760A144A210F0000A608 /* Foundation.framework */; };
+		E510760D144A210F0000A608 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E510760C144A210F0000A608 /* CoreGraphics.framework */; };
+		E5107613144A21100000A608 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5107611144A21100000A608 /* InfoPlist.strings */; };
+		E5107615144A21100000A608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5107614144A21100000A608 /* main.m */; };
+		E5107619144A21100000A608 /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5107618144A21100000A608 /* RKUAppDelegate.m */; };
+		E510761C144A21100000A608 /* RKUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E510761B144A21100000A608 /* RKUViewController.m */; };
+		E510761F144A21100000A608 /* RKUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E510761D144A21100000A608 /* RKUViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5107604144A210F0000A608 /* Shake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5107608144A210F0000A608 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E510760A144A210F0000A608 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E510760C144A210F0000A608 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5107610144A21100000A608 /* Shake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shake-Info.plist"; sourceTree = "<group>"; };
+		E5107612144A21100000A608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5107614144A21100000A608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5107616144A21100000A608 /* Shake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shake-Prefix.pch"; sourceTree = "<group>"; };
+		E5107617144A21100000A608 /* RKUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		E5107618144A21100000A608 /* RKUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		E510761A144A21100000A608 /* RKUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUViewController.h; sourceTree = "<group>"; };
+		E510761B144A21100000A608 /* RKUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUViewController.m; sourceTree = "<group>"; };
+		E510761E144A21100000A608 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5107601144A210F0000A608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5107609144A210F0000A608 /* UIKit.framework in Frameworks */,
+				E510760B144A210F0000A608 /* Foundation.framework in Frameworks */,
+				E510760D144A210F0000A608 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E51075F9144A210F0000A608 = {
+			isa = PBXGroup;
+			children = (
+				E510760E144A210F0000A608 /* Shake */,
+				E5107607144A210F0000A608 /* Frameworks */,
+				E5107605144A210F0000A608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5107605144A210F0000A608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5107604144A210F0000A608 /* Shake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5107607144A210F0000A608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5107608144A210F0000A608 /* UIKit.framework */,
+				E510760A144A210F0000A608 /* Foundation.framework */,
+				E510760C144A210F0000A608 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E510760E144A210F0000A608 /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				E5107617144A21100000A608 /* RKUAppDelegate.h */,
+				E5107618144A21100000A608 /* RKUAppDelegate.m */,
+				E510761A144A21100000A608 /* RKUViewController.h */,
+				E510761B144A21100000A608 /* RKUViewController.m */,
+				E510761D144A21100000A608 /* RKUViewController.xib */,
+				E510760F144A21100000A608 /* Supporting Files */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		E510760F144A21100000A608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5107610144A21100000A608 /* Shake-Info.plist */,
+				E5107611144A21100000A608 /* InfoPlist.strings */,
+				E5107614144A21100000A608 /* main.m */,
+				E5107616144A21100000A608 /* Shake-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5107603144A210F0000A608 /* Shake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5107622144A21100000A608 /* Build configuration list for PBXNativeTarget "Shake" */;
+			buildPhases = (
+				E5107600144A210F0000A608 /* Sources */,
+				E5107601144A210F0000A608 /* Frameworks */,
+				E5107602144A210F0000A608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shake;
+			productName = Shake;
+			productReference = E5107604144A210F0000A608 /* Shake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E51075FB144A210F0000A608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E51075FE144A210F0000A608 /* Build configuration list for PBXProject "Shake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E51075F9144A210F0000A608;
+			productRefGroup = E5107605144A210F0000A608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5107603144A210F0000A608 /* Shake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5107602144A210F0000A608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5107613144A21100000A608 /* InfoPlist.strings in Resources */,
+				E510761F144A21100000A608 /* RKUViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5107600144A210F0000A608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5107615144A21100000A608 /* main.m in Sources */,
+				E5107619144A21100000A608 /* RKUAppDelegate.m in Sources */,
+				E510761C144A21100000A608 /* RKUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5107611144A21100000A608 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5107612144A21100000A608 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E510761D144A21100000A608 /* RKUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E510761E144A21100000A608 /* en */,
+			);
+			name = RKUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5107620144A21100000A608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5107621144A21100000A608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5107623144A21100000A608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake/Shake-Prefix.pch";
+				INFOPLIST_FILE = "Shake/Shake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5107624144A21100000A608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake/Shake-Prefix.pch";
+				INFOPLIST_FILE = "Shake/Shake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E51075FE144A210F0000A608 /* Build configuration list for PBXProject "Shake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5107620144A21100000A608 /* Debug */,
+				E5107621144A21100000A608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5107622144A21100000A608 /* Build configuration list for PBXNativeTarget "Shake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5107623144A21100000A608 /* Debug */,
+				E5107624144A21100000A608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E51075FB144A210F0000A608 /* Project object */;
+}
