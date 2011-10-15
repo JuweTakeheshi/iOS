@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E51075A41449EE9E0000A608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51075A31449EE9E0000A608 /* UIKit.framework */; };
+		E51075A61449EE9E0000A608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51075A51449EE9E0000A608 /* Foundation.framework */; };
+		E51075A81449EE9E0000A608 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51075A71449EE9E0000A608 /* CoreGraphics.framework */; };
+		E51075AE1449EE9E0000A608 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E51075AC1449EE9E0000A608 /* InfoPlist.strings */; };
+		E51075B01449EE9E0000A608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E51075AF1449EE9E0000A608 /* main.m */; };
+		E51075B41449EE9E0000A608 /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E51075B31449EE9E0000A608 /* RKUAppDelegate.m */; };
+		E51075B71449EE9E0000A608 /* RKUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E51075B61449EE9E0000A608 /* RKUViewController.m */; };
+		E51075BA1449EE9E0000A608 /* RKUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51075B81449EE9E0000A608 /* RKUViewController.xib */; };
+		E51075C21449EF070000A608 /* Vista1.m in Sources */ = {isa = PBXBuildFile; fileRef = E51075C11449EF070000A608 /* Vista1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E510759F1449EE9D0000A608 /* ResponderChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponderChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51075A31449EE9E0000A608 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E51075A51449EE9E0000A608 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E51075A71449EE9E0000A608 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E51075AB1449EE9E0000A608 /* ResponderChain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResponderChain-Info.plist"; sourceTree = "<group>"; };
+		E51075AD1449EE9E0000A608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E51075AF1449EE9E0000A608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E51075B11449EE9E0000A608 /* ResponderChain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResponderChain-Prefix.pch"; sourceTree = "<group>"; };
+		E51075B21449EE9E0000A608 /* RKUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		E51075B31449EE9E0000A608 /* RKUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		E51075B51449EE9E0000A608 /* RKUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKUViewController.h; sourceTree = "<group>"; };
+		E51075B61449EE9E0000A608 /* RKUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKUViewController.m; sourceTree = "<group>"; };
+		E51075B91449EE9E0000A608 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUViewController.xib; sourceTree = "<group>"; };
+		E51075C01449EF070000A608 /* Vista1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vista1.h; sourceTree = "<group>"; };
+		E51075C11449EF070000A608 /* Vista1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vista1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E510759C1449EE9D0000A608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51075A41449EE9E0000A608 /* UIKit.framework in Frameworks */,
+				E51075A61449EE9E0000A608 /* Foundation.framework in Frameworks */,
+				E51075A81449EE9E0000A608 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E51075941449EE9D0000A608 = {
+			isa = PBXGroup;
+			children = (
+				E51075A91449EE9E0000A608 /* ResponderChain */,
+				E51075A21449EE9E0000A608 /* Frameworks */,
+				E51075A01449EE9D0000A608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E51075A01449EE9D0000A608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E510759F1449EE9D0000A608 /* ResponderChain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E51075A21449EE9E0000A608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E51075A31449EE9E0000A608 /* UIKit.framework */,
+				E51075A51449EE9E0000A608 /* Foundation.framework */,
+				E51075A71449EE9E0000A608 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51075A91449EE9E0000A608 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				E51075B21449EE9E0000A608 /* RKUAppDelegate.h */,
+				E51075B31449EE9E0000A608 /* RKUAppDelegate.m */,
+				E51075B51449EE9E0000A608 /* RKUViewController.h */,
+				E51075B61449EE9E0000A608 /* RKUViewController.m */,
+				E51075C01449EF070000A608 /* Vista1.h */,
+				E51075C11449EF070000A608 /* Vista1.m */,
+				E51075B81449EE9E0000A608 /* RKUViewController.xib */,
+				E51075AA1449EE9E0000A608 /* Supporting Files */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		E51075AA1449EE9E0000A608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E51075AB1449EE9E0000A608 /* ResponderChain-Info.plist */,
+				E51075AC1449EE9E0000A608 /* InfoPlist.strings */,
+				E51075AF1449EE9E0000A608 /* main.m */,
+				E51075B11449EE9E0000A608 /* ResponderChain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E510759E1449EE9D0000A608 /* ResponderChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E51075BD1449EE9E0000A608 /* Build configuration list for PBXNativeTarget "ResponderChain" */;
+			buildPhases = (
+				E510759B1449EE9D0000A608 /* Sources */,
+				E510759C1449EE9D0000A608 /* Frameworks */,
+				E510759D1449EE9D0000A608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResponderChain;
+			productName = ResponderChain;
+			productReference = E510759F1449EE9D0000A608 /* ResponderChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E51075961449EE9D0000A608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E51075991449EE9D0000A608 /* Build configuration list for PBXProject "ResponderChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E51075941449EE9D0000A608;
+			productRefGroup = E51075A01449EE9D0000A608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E510759E1449EE9D0000A608 /* ResponderChain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E510759D1449EE9D0000A608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51075AE1449EE9E0000A608 /* InfoPlist.strings in Resources */,
+				E51075BA1449EE9E0000A608 /* RKUViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E510759B1449EE9D0000A608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51075B01449EE9E0000A608 /* main.m in Sources */,
+				E51075B41449EE9E0000A608 /* RKUAppDelegate.m in Sources */,
+				E51075B71449EE9E0000A608 /* RKUViewController.m in Sources */,
+				E51075C21449EF070000A608 /* Vista1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E51075AC1449EE9E0000A608 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E51075AD1449EE9E0000A608 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E51075B81449EE9E0000A608 /* RKUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E51075B91449EE9E0000A608 /* en */,
+			);
+			name = RKUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E51075BB1449EE9E0000A608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E51075BC1449EE9E0000A608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E51075BE1449EE9E0000A608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResponderChain/ResponderChain-Prefix.pch";
+				INFOPLIST_FILE = "ResponderChain/ResponderChain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E51075BF1449EE9E0000A608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResponderChain/ResponderChain-Prefix.pch";
+				INFOPLIST_FILE = "ResponderChain/ResponderChain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E51075991449EE9D0000A608 /* Build configuration list for PBXProject "ResponderChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51075BB1449EE9E0000A608 /* Debug */,
+				E51075BC1449EE9E0000A608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E51075BD1449EE9E0000A608 /* Build configuration list for PBXNativeTarget "ResponderChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51075BE1449EE9E0000A608 /* Debug */,
+				E51075BF1449EE9E0000A608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E51075961449EE9D0000A608 /* Project object */;
+}

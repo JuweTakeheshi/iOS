@@ -310,6 +310,7 @@
 				E5A6157114410F300008C746 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

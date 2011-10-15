@@ -80,11 +80,12 @@
     
     NSError * error;
     
-    if(![context save:&error]){
-        NSLog(@"No puedo guardar");
-    }
+ 
     
 #endif
+    
+    
+    self.navigationItem.leftBarButtonItem = self.editButtonItem;
 }
 
 - (void)viewDidUnload
@@ -150,27 +151,31 @@
     return cell;
 }
 
-/*
+
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
-*/
 
-/*
+
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
+        
+        Pelicula * pelicula = [peliculas objectAtIndex:indexPath.row];
+        [context deleteObject:pelicula];
+        
+        [peliculas removeObject:pelicula];
+        
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
+    }
 }
-*/
+
 
 /*
 // Override to support rearranging the table view.
